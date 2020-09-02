@@ -48,26 +48,17 @@
     * src/tizen.c function_3 영희
 
 ## 보드
-* 프로젝트에서 사용하는 보드(RPI3 or SDTA7D)를 적어주세요.
+* 프로젝트에서 사용하는 보드(RPI4 or 아두이노 등)를 적어주세요.
 * 사용하는 보드마다 각각의 목적을 적어주세요.
 * 사용하는 보드마다 설치되는 깃허브의 Repo를 적어주세요.
 * 예시 : 한 대만 사용한 경우
-  * RPI3 : 이미지 분석 및 센서 연동, github.com/theojin/hackathon-example
+  * RPI4 : 이미지 분석 및 센서 연동, github.com/theojin/hackathon-example
 * 예시 : 서로 다른 모델의 보드를 두 대 이상 사용한 경우
-  * RPI3 : 이미지 분석, github.com/theojin/hackathon-example-1
-  * SDTA7D : 센서 연동, github.com/theojin/hackathon-example-2
+  * RPI4 : 이미지 분석, github.com/theojin/hackathon-example-1
+  * 아두이노 : 센서 연동, github.com/theojin/hackathon-example-2
 * 예시 : 동일 모델을 두 대 이상 사용한 경우
-  * RPI3 1 : 이미지 분석, github.com/theojin/hackathon-example-1
-  * RPI3 2 : 센서 연동, github.com/theojin/hackathon-example-2
+  * RPI4 1 : 이미지 분석, github.com/theojin/hackathon-example-1
+  * RPI4 2 : 센서 연동, github.com/theojin/hackathon-example-2
 
-## 구현사항
-* GPIO / I2C / PWM / UART / SPI 중 사용한 프로토콜 명시
-* 누비슨 클라우드 / 싱스파크 클라우드 / 기타 중 사용한 클라우드 명시
-* 카메라 기능 사용 여부
-* 이미지 분석 기능 사용 여부
-* 예시
-  * GPIO 사용
-  * 싱스파크 클라우드 사용
-  * 카메라 사용하지 않음
-  * 이미지 분석 사용하지 않음
-  
+## 구현사항(가산점)
+* Peripheral GPIO / I2C / UART / SPI 중 사용한 프로토콜 명시
